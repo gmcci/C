@@ -1,0 +1,24 @@
+Variable: int age = 10;
+
+Pointer (memory address): char* color = "Yellow";
+
+Pointer: char *location = "Center";
+
+Pointer of a pointer: char **james = &location;
+
+"OOP": dev->config = "Something"  \\ It's like dev.config in Python
+
+static: static float n1 = 12.9;  \\ Even when the function ends, it keeps the value;
+
+const: const char* nome = "Julia";  \\ It doesn't change, so it's set on Flash memory instead of RAM.
+
+struct: typedef struct {
+           int age;
+           const char* name;
+        } Person;
+
+        Person p1;
+        p1.age = 19;
+        p1.name = "Ana":
+
+// Struct are meant to organize related variables together.
